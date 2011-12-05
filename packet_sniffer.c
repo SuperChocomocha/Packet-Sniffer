@@ -210,7 +210,7 @@ void StartSniffing(void *sniffer) {
             break;
         } else {
             WaitForSingleObject(handle_semaphore, 0);
-            write_to_buf(shared_buf, Buffer, sizeof(Buffer));
+            write_to_buf(shared_buf, Buffer, DATA_SIZE);
             ReleaseSemaphore(handle_semaphore, 1, NULL);
         }
     }
