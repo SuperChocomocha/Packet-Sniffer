@@ -15,6 +15,8 @@
 /*------------------------------------------------------------------------------
  * USAGE: - code first written in Microsoft Visual Studio 2005 and reworked in
  *              Microsoft Visual Studio 2010
+ *        - slightly formatted on a Mac computer, therefore format might be
+ *              messed up if opened on a PC
  *        - must have multithreading enabled in project settings
  *        - incorporates the Ring Buffer
  *----------------------------------------------------------------------------*/

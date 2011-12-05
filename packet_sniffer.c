@@ -8,13 +8,15 @@
  * TODO: - Some annoying warnings left
  *       - dumbed down version of something I did over the summer, got rid of
  *             a lot of proprietary stuff, might have broken something,
- *             and considering I don’t own a Windows computer, it’ll be hard
+ *             and considering I don't own a Windows computer, it'll be hard
  *             to find anytime to work on this anymore
  *----------------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------------------
  * USAGE: - code first written in Microsoft Visual Studio 2005 and reworked in
  *              Microsoft Visual Studio 2010
+ *        - slightly formatted on a Mac computer, therefore format might be
+ *              messed up if opened on a PC
  *        - must have multithreading enabled in project settings
  *        - incorporates the Ring Buffer
  *----------------------------------------------------------------------------*/
@@ -270,3 +272,4 @@ void ProcessData(void *v) {
     free(temp_data);
     _endthread();
 }
+
